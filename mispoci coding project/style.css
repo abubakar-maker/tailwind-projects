@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+.box{
+
+    @apply p-2 m-4 mr-6 ml-6 rounded-lg border-2 border-gray-600 hover:rounded-md   text-center
+}
+.box ul li {
+    @apply mx-9 my-1
+}
+@tailwind utilities;
